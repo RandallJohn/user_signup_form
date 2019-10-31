@@ -117,7 +117,7 @@ def validate_login():
 
     else:
         return render_template('signup.html', username_error = username_error, password_error = password_error, 
-        verify_error = verify_error, email_error = email_error, username = username, email = email, title=Signup)
+        verify_error = verify_error, email_error = email_error, username = username, email = email, title="Sign-Up")
 
 # Create a route handler for Welcome page- passing in query parameter for username:
 
